@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- google font link -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,500;0,700;0,1000;1,300&display=swap"
+        rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <!-- custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- font awesome link -->
+    <script src="https://kit.fontawesome.com/6a208696e1.js" crossorigin="anonymous"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
+    <title>Ian Kane | Web Developer</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg border py-lg-2 shadow" id="nav">
+            <div class="container-fluid me-2 me-lg-4">
+                <!-- blog home page link -->
+                <a class="navbar-brand text-center logo p-2 border-top border-start border-2 border-danger"
+                    href="home.html"
+                    title="Site logo of portfolio site, that is also a link to the  home page"><strong>Ian
+                        Kane</strong><br><em class="border-top border-5 border-dark mt-0"><small>Web
+                            Developer</small></em></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul
+                        class="navbar-nav gap-md-2 gap-lg-5 border-top border-start border-2 border-danger p-2 mt-3 mt-lg-0">
+                        <li class="nav-item">
+                            <!-- projects link -->
+                            <a class="nav-link" aria-current="page" href="#projects"
+                                title="Shortcut link to the portfolio projects section">PROJECTS</a>
+                        </li>
+                        <li class="nav-item">
+                            <!-- resume link -->
+                            <a class="nav-link" aria-current="page" href="img/ian-kane-resume.pdf" target="_blank"
+                                rel="noopener noreferrer" title="PDF link to a professional resume">RESUME</a>
+                        </li>
+                        <li class="nav-item">
+                            <!-- contact link -->
+                            <a class="nav-link" aria-current="page" href="#contact"
+                                title="Shortcut link to the contact section">CONTACT</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="row p-5 justify-content-center mx-auto bg-danger text-light">
+            <div class="col-md-6 col-lg-7 text-center">
+                <h1>Hey, my name is <br> <strong>Ian Kane</strong></h1>
+                <p class="my-4 fs-4">I'm a full-stack web developer from Vancouver Washington, with a passion for
+                    building streamlined and refined websites, ensuring each one is as efficient and effective as
+                    possible.</p>
+                <a href="#contact" title="shortcut link to contact section" class="btn btn-dark rounded-5">Get In
+                    Touch</a>
+                <a href="img/ian-kane-resume.pdf" target="_blank" rel="noopener noreferrer"
+                    title="PDF link to a professional resume" class="btn btn-dark ms-4 rounded-5">View My Resume</a>
+            </div>
+        </div>
+    </header>
+    <div class="row p-5 justify-content-center mx-auto">
+        <div class="col-md-7 border-top border-start border-2 border-danger me-0 me-md-5 p-4" id="projects">
+            <main>
+                <h2>Projects</h2>
+                <div class="card mb-3 mt-4">
+                    <div class="row g-0 align-items-center">
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <p class="card-title h5">OpenWeatherMap Weather App</p>
+                                <p class="card-text">An application that displays weather data, gathered through
+                                    the OpenWeatherMap API, using HTML, CSS, and JavaScript.</p>
+                                <div class="col"><a href="https://github.com/Ian-Kane1/openweathermap-weather-app"
+                                        title="link to openweathermap weather app github repository" target="_blank"
+                                        rel="noopener noreferrer" class="btn btn-dark rounded-5"><i
+                                            class="fab fa-github github contact-icon grow"></i> Github
+                                        Repository</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 p-4">
+                            <img src="img/weather-app-screenshot.png" class="img-fluid rounded shadow"
+                                alt="weather app screenshot">
+                        </div>
+                    </div>
+                </div>
+                <div class="card mb-3">
+                    <div class="row g-0 align-items-center">
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <p class="card-title h5"><strong><em>The New York Times</em></strong> Top Stories Reader
+                                </p>
+                                <p class="card-text">An application that displays New York Times article data,
+                                    gathered through the NYT API, using HTML, CSS, and JavaScript.</p>
+                                <div class="col"><a href="https://github.com/Ian-Kane1/nyt-top-stories-reader"
+                                        title="link to nyt top stories reader github repository" target="_blank"
+                                        rel="noopener noreferrer" class="btn btn-dark rounded-5"><i
+                                            class="fab fa-github github contact-icon grow"></i> Github
+                                        Repository</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 p-4">
+                            <img src="img/nyt-top-stories-reader-screenshot.png" class="img-fluid rounded shadow"
+                                alt="new york times top stories reader screenshot">
+                        </div>
+                    </div>
+                </div>
+                <div class="card mb-3">
+                    <div class="row g-0 align-items-center">
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <p class="card-title h5">Image Gallery</p>
+                                <p class="card-text">An application that creates, displays, updates, and deletes image
+                                    gallery data gathered from a MySQL database, while providing a registration and
+                                    login system, using HTML, CSS, Bootstrap, JavaScript, and
+                                    PHP.</p>
+                                <div class="col"><a href="https://github.com/Ian-Kane1/image-gallery"
+                                        title="link to image gallery github repository" target="_blank"
+                                        rel="noopener noreferrer" class="btn btn-dark rounded-5"><i
+                                            class="fab fa-github github contact-icon grow"></i> Github
+                                        Repository</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 p-4">
+                            <img src="img/image-gallery-screenshot.png" class="img-fluid rounded shadow"
+                                alt="image gallery screenshot">
+                        </div>
+                    </div>
+                </div>
+                <div class="card mb-3">
+                    <div class="row g-0 align-items-center">
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <p class="card-title h5">Blog App</p>
+                                <p class="card-text">An application that creates, displays, updates, and deletes blog
+                                    data gathered from a MySQL database, using HTML, CSS, Bootstrap, JavaScript, and
+                                    PHP.</p>
+                                <div class="col"><a href="https://github.com/Ian-Kane1/blog-application"
+                                        title="link to blog app github repository" target="_blank"
+                                        rel="noopener noreferrer" class="btn btn-dark rounded-5"><i
+                                            class="fab fa-github github contact-icon grow"></i> Github
+                                        Repository</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 p-4">
+                            <img src="img/blog-app-screenshot.png" class="img-fluid rounded shadow"
+                                alt="blog app screenshot">
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </div>
+        <div class="col-md-4 border-top border-start border-2 border-danger p-4 mt-5 mt-md-0" id="contact">
+            <aside>
+                <h2>Let's Get In Touch!</h2>
+                <p class="mt-5">I’m available for full-time web developer employment opportunities. Please feel free to
+                    send a message my way on <em>any</em> of the following platforms:
+                </p>
+                <div class="col"><a href="mailto:ian.t.kane@gmail.com" title="link to personal email account"
+                        class="btn btn-dark rounded-5"><i class="far fa-envelope contact-icon grow"></i> Email</a></div>
+                <div class="col"><a href="https://www.linkedin.com/in/ian-kane-426311273/"
+                        title="link to personal linkedin account" target="_blank" rel="noopener noreferrer"
+                        class="btn btn-dark mt-3 rounded-5"><i class="fab fa-linkedin contact-icon grow"></i>
+                        LinkedIn</a></div>
+                <div class="col"><a href="https://github.com/Ian-Kane1" title="link to personal github account"
+                        target="_blank" rel="noopener noreferrer" class="btn btn-dark mt-3 rounded-5"><i
+                            class="fab fa-github github contact-icon grow"></i> GitHub</a></div>
+                <img src="img/headshot.JPG" alt="headshot picture of portfolio creator Ian Kane"
+                    class="img-fluid m-4 ms-0 mt-5 rounded-5">
+            </aside>
+        </div>
+    </div>
+    <div class="col-3">
+        <a href="#" title="Back to Top" id="btn-back-to-top" style="display: block;" class="sticky-bottom">
+            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="#293885"
+                class="bi bi-arrow-up-circle-fill grow" viewBox="0 0 16 16">
+                <path
+                    d="M16 8A8 8 0 1 0 0 8a8 8 0 0 0 16 0zm-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z">
+                </path>
+            </svg>
+        </a>
+    </div>
+    <div class="row">
+        <div class="col-12">
+            <footer>
+                <p class="text-center">&copy; 2023 | Developed by Ian Kane</p>
+            </footer>
+        </div>
+    </div>
